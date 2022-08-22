@@ -1,0 +1,30 @@
+{
+    "name": "ahj-chat-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "prestart": "npm install",
+        "start": "forever server.js",
+        "watch": "forever -w server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AnnaAlexandrova1/ahj-chat-backend.git"
+    },
+    "author": "annaAlexandrova",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AnnaAlexandrova1/ahj-chat-backend/issues"
+    },
+    "homepage": "https://github.com/AnnaAlexandrova1/ahj-chat-backend#Readme",
+    "dependencies": {
+        "forever": "^3.0.4",
+        "http-event-stream": "^0.2.0",
+        "koa": "^2.13.4",
+        "koa-body": "^4.2.0",
+        "koa-router": "^10.1.1",
+        "uuid": "^8.3.2",
+        "ws": "^7.4.5"
+    }
+}
